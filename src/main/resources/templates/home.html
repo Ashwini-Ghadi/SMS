@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::Layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+	<section>
+		<form action="#">
+			<input type="text" name="color" id="color" required>
+			<input type="number" name="abc" id="abc">
+			<input type="submit" value="submit" onClick="generatePDF()" class="btn btn-primary">
+		</form>
+	</section>
+</body>
+</html>
